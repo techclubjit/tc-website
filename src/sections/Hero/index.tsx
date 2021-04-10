@@ -178,7 +178,7 @@ const Hero = () => {
       <Content>
         <Text variant="header" as="h1">
          Something great coming soon!
-        </Text>
+         </Text>
         <Text variant="subheader" as="h1">
          Tech Club -JyothyIT | Dept of CSE | JIT
         </Text>
