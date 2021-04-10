@@ -12,11 +12,9 @@ const LazyLoadedSections = React.lazy(() =>
 
 const App = () => (
   <North themeDefinition={(themeDef as unknown) as ThemeDefinition}>
-    <Navbar />
+    {/* <Navbar /> */}
     <Hero />
-    <Suspense fallback={null}>
-      <LazyLoadedSections />
-    </Suspense>
+   
   </North>
 );
 

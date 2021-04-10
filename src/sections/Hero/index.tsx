@@ -177,21 +177,20 @@ const Hero = () => {
     <HeroWrapper id="home">
       <Content>
         <Text variant="header" as="h1">
-          {siteCopy.hero.firstLine}{" "}
-          <TextLoop>
-            {siteCopy.hero.keyWords.map(word => (
-              <span key={word}>{word}</span>
-            ))}
-          </TextLoop>
+         Something great coming soon!
         </Text>
-        <Text variant="header" as="h1">
-          {siteCopy.hero.secondLine}
+        <Text variant="subheader" as="h1">
+         Tech Club -JyothyIT | Dept of CSE | JIT
         </Text>
         <Text variant="subheader" as="p">
-          <span style={{ whiteSpace: "pre" }}>{siteCopy.hero.subtitle}</span>
+         Watch this space for updates!
         </Text>
-        <MailingListSignup width={width} />
+        {/* <MailingListSignup width={width} /> */}
       </Content>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       {width <= 768 ? (
         <MobileWrapper className="parallax">
           <Lottie options={mobileOptions} />
