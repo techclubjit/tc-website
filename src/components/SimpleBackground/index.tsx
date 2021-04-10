@@ -64,7 +64,7 @@ const Backdrop = styled.div<BackdropProps>`
   z-index: -1;
 
   transition: background-color 350ms linear;
-  background-color: ${props => sections[props.section].bg};
+  background-color: "${props => sections[props.section].bg};"
 `;
 
 // const BackgroundLayer = styled.div<BackgroundLayerProps>`

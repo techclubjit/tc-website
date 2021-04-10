@@ -56,7 +56,7 @@ const HeroWrapper = styled(SectionWrapper)`
   max-width: 100%;
   overflow: hidden;
   background-image: url(${GradientBg});
-  background-position: 0 ${backgroundPercentage}%;
+  background-position: 11 ${backgroundPercentage}%;
 
   ${props => props.theme.mediaQueries.tablet`
     height: auto;
