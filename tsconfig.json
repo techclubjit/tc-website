@@ -4,11 +4,14 @@
     "outDir": "build/dist",
     "module": "esnext",
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "sourceMap": true,
     "allowJs": true,
     "esModuleInterop": true,
-    "jsx": "preserve",
+    "jsx": "react",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "rootDir": "src",
@@ -19,12 +22,20 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "types": ["react", "react-dom", "styled-components"],
+    "types": [
+      "react",
+      "react-dom",
+      "styled-components"
+    ],
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "typings.d.ts"]
+  "include": [
+    "src",
+    "typings.d.ts"
+  ]
 }
