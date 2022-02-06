@@ -3,7 +3,7 @@
   "version": "6.0.0",
   "private": true,
   "dependencies": {
-    "@hackthenorth/north": "^0.6.4",
+    "@hackthenorth/north": "^1.0.0",
     "@types/lodash.throttle": "^4.1.6",
     "@types/node": "^11.13.9",
     "@types/react": "^16.8.15",
