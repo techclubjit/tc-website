@@ -57,7 +57,7 @@
     "glob": "^7.1.4",
     "imagemin": "^6.1.0",
     "imagemin-jpegtran": "^6.0.0",
-    "imagemin-pngquant": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
     "prettier": "^1.17.0",
     "react-crossfade-image": "^1.1.1",
     "stylelint": "^10.0.1",
