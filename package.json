@@ -10,7 +10,7 @@
     "@types/react-dom": "^16.8.4",
     "@types/react-lottie": "^1.2.2",
     "@types/smoothscroll-polyfill": "^0.3.1",
-    "@types/styled-components": "^4.1.14",
+    "@types/styled-components": "^4.4.3",
     "lodash.throttle": "^4.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
